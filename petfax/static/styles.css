@@ -1,0 +1,36 @@
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap');
+
+:root {
+    --bold-font: 'Source Sans Pro', sans-serif, 700;
+    --body-font: 'Source Sans Pro', sans-serif, 400;
+    --accent-font: 'Source Sans Pro', sans-serif, 200;
+
+    --page-color: #CADEDF;
+    --bf-color: #16796F;
+    --bof-color: #7CB7AF;
+    --af-color: #9CA89E; 
+
+}
+
+body {
+    background-color: var(--page-color);
+    font-family: var(--body-font);
+}
+
+h1 {
+    text-align: center;
+    color: var(--bf-color);
+}
+
+.spacer {
+    width: 50%;
+    margin: 2em auto;
+    padding: 1em 3em 3em 3em;
+    border-radius: 1em;
+    background: white;
+    box-shadow: 2px 2px var(--af-color);
+}
+
+.name {
+    color: var(--bof-color);
+}

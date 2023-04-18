@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
     <title>About Me!</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
     <div>
         {{pet.pet_fact}}
         <br/>
-        <a href="/new">Would you Like to add your own fact?</a>
+        <a href="/facts/new">Would you Like to add your own fact?</a>
     </div>
     
     <a href="/pets"> Previous Page </a>
